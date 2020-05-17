@@ -1,5 +1,6 @@
 package com.example.demo.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -17,6 +18,10 @@ public class Currency {
         this.code = code;
         this.amount = amount;
         this.rate = rate;
+    }
+
+    public Currency() {
+
     }
 
     @Id
