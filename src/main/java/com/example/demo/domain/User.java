@@ -1,5 +1,6 @@
 package com.example.demo.domain;
 
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -20,6 +21,7 @@ public class User {
     private Long id;
 
     private String userName;
+
     private String password;
 
     public User(String userName, String password) {
